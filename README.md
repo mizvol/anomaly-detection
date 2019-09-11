@@ -1,2 +1,4 @@
-# anomaly-detection
-Spatio-temporal Anomaly Detection. Example with random graph and random signal. Paper: https://arxiv.org/abs/1901.09688
+# Spatio-temporal Anomaly Detection
+Example with random graph and random signal. [Paper](https://arxiv.org/abs/1901.09688)
+
+In this example, we use a random graph. The results largely depend on the structure of the graph. The results are much better when the structure of network makes sense (for example, social network or hyperlinks network). This is just a (very inefficient) demonstration for practitioners. If you need a scalable version and more efficient implementation, use the [following code](https://github.com/epfl-lts2/sparkwiki/blob/master/src/main/scala/ch/epfl/lts2/wikipedia/PeakFinder.scala). To run it, first, you need to deploy two databases with Wikipedia graph (Neo4J) and pagecounts time-series (Apache Cassandra). To do that, please follow [these instructions](https://github.com/epfl-lts2/sparkwiki/tree/master/helpers).
