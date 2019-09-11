@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mizvol/anomaly-detection/master)
 
-Example with random graph and random signal. Implementation of the algorithm from [Anomaly detection in the dynamics of web and social networks](https://arxiv.org/abs/1901.09688) paper.
+Example with random graph and random time-series signal. Implementation of the algorithm from [Anomaly detection in the dynamics of web and social networks](https://arxiv.org/abs/1901.09688) paper.
 
 In this example, we use a random graph. The results largely depend on the structure of the graph. The results are much better when the structure of network makes sense (for example, social network or hyperlinks network). This is just a (very inefficient) demonstration for practitioners.
 
