@@ -1,0 +1,9 @@
+name: anomaly-environment
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - networkx
+  - scipy
+  
